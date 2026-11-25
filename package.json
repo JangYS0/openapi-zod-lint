@@ -1,0 +1,29 @@
+{
+  "name": "openapi-zod-lint",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js CLI & module to lint JSON Schema / OpenAPI 3.0-3.1 definitions for LLM Structured Outputs strict-mode and codegen breaks.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "openapi-zod-lint": "./cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "openapi",
+    "json-schema",
+    "zod",
+    "structured-outputs",
+    "llm",
+    "typescript",
+    "cli",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "homepage": "https://global-utils.com/en/openapi-converter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JangYS0/openapi-zod-lint.git"
+  }
+}
